@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Converter</title>
+    <link rel="stylesheet" href="../css-files/converter.css">
+  </head>
+  <body>
+    <h1 style=>Welcome to currency converter🌐💲💲💲</h1>
+
+    <div class="page-edit">
+      
+      <input type="number" placeholder="Enter Amount" id="input-id" class="input-edit">
+      <label for="currency-from">From</label>
+      <select id="currency-from" name="from" class="from-edit">
+        <option value="USD">US Dollars</option>
+        <option value="KES" selected>Kenyan Shillings</option>
+        <option value="EUR">Euro</option>
+      </select>
+      <label for="currency-to">To</label>
+      <select id="currency-to" name="to" class="to-edit">
+        <option value="USD">US Dollars</option>
+        <option value="KES">Kenyan Shillings</option>
+        <option value="EUR" selected>Euro</option>
+      </select>
+      <button id="get-input" class="button-edit">Convert</button>
+      <div id="display-input">
+
+    </div>
+    </div>
+    <script src="../scripts/displayconverter.js" type="module"></script>
+  </body>
+</html>
